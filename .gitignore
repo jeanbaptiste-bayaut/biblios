@@ -1,13 +1,48 @@
+# Symfony 7 - Dependencies and caches
 /vendor/
 /var/
 /public/bundles/
+
+# Environment files
 /.env.local
 /.env.local.php
 /.env.*.local
+
+# Configuration secrets
 /config/secrets/prod/
+
+# User uploads
 /public/uploads/
+
+# Translations
 /translations/*.mo
+
 ###> phpunit/phpunit ###
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+/web/uploads/
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+# OS files
+.DS_Store
+Thumbs.db
